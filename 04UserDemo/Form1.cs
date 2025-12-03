@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace _04UserDemo
+{
+    public partial class MainForm: Form
+    {
+        public MainForm()
+        {
+            InitializeComponent();
+        }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            UserLoginFrm userLoginFrm = new UserLoginFrm();
+            userLoginFrm.Show();
+        }
+
+        private void btnsignup_Click(object sender, EventArgs e)
+        {
+            UserSignup userSignup = new UserSignup();
+            userSignup.Show();
+        }
+    }
+}

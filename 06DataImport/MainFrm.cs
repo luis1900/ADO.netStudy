@@ -42,7 +42,7 @@ namespace _06DataImport
             }
         }
 
-        // 1. 把 void 改成 string，这样方法就能返回消息了
+        
         private string ImportData(string fileName)
         {
             int successCount = 0; // 定义一个计数器

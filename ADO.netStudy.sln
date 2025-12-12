@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05ConfigDemo", "05ConfigDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06DataImport", "06DataImport\06DataImport.csproj", "{82CE6107-F14D-4227-A05A-ADBABC0ACA12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07PrivanceCitySelect", "07PrivanceCitySelect\07PrivanceCitySelect.csproj", "{1EC3E5B8-110A-4516-8A13-0826088249F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{82CE6107-F14D-4227-A05A-ADBABC0ACA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82CE6107-F14D-4227-A05A-ADBABC0ACA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82CE6107-F14D-4227-A05A-ADBABC0ACA12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC3E5B8-110A-4516-8A13-0826088249F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC3E5B8-110A-4516-8A13-0826088249F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC3E5B8-110A-4516-8A13-0826088249F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC3E5B8-110A-4516-8A13-0826088249F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

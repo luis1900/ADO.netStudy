@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _07PrivanceCitySelect
+{
+    public class AreaInfo
+    {
+        public string AreaName { get; set; }
+
+        public int AreaId { get; set; }
+
+        public int AreaPid { get; set; }
+
+        public override string ToString()
+        {
+            return AreaName;
+        }
+
+
+    }
+}

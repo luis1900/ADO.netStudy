@@ -30,6 +30,7 @@
         {
             this.cbxPrivance = new System.Windows.Forms.ComboBox();
             this.cbxCity = new System.Windows.Forms.ComboBox();
+            this.btnExport = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cbxPrivance
@@ -39,6 +40,7 @@
             this.cbxPrivance.Name = "cbxPrivance";
             this.cbxPrivance.Size = new System.Drawing.Size(121, 23);
             this.cbxPrivance.TabIndex = 0;
+            this.cbxPrivance.SelectedIndexChanged += new System.EventHandler(this.cbxPrivance_SelectedIndexChanged);
             // 
             // cbxCity
             // 
@@ -48,11 +50,22 @@
             this.cbxCity.Size = new System.Drawing.Size(121, 23);
             this.cbxCity.TabIndex = 1;
             // 
+            // btnExport
+            // 
+            this.btnExport.Location = new System.Drawing.Point(161, 198);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(75, 23);
+            this.btnExport.TabIndex = 2;
+            this.btnExport.Text = "导出数据";
+            this.btnExport.UseVisualStyleBackColor = true;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            // 
             // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnExport);
             this.Controls.Add(this.cbxCity);
             this.Controls.Add(this.cbxPrivance);
             this.Name = "MainFrm";
@@ -66,6 +79,7 @@
 
         private System.Windows.Forms.ComboBox cbxPrivance;
         private System.Windows.Forms.ComboBox cbxCity;
+        private System.Windows.Forms.Button btnExport;
     }
 }
 
